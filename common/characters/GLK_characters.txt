@@ -2,7 +2,7 @@ characters = {
 
 	#stupid council fuck you
 	vogel_partit = {
-		name = "Vaksovia Regentschaft"
+		name = "Vaksovia Regentschaft sexo"
 		portraits = {
 			civilian = {
 				large = GFX_Vogel_Partit
