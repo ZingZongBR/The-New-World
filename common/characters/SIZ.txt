@@ -1,0 +1,29 @@
+characters={
+	SIZ_Zing={
+		name=SIZ_character_zing
+		portraits={
+			civilian={
+				large= GFX_portrait_siz_zing
+			}
+		}
+		country_leader={
+			ideology=constitutional_monarchy
+			traits= { legitimate_heir }
+			expire="1947.1.1.1"
+		}
+	}
+	
+	SIZ_BloodMoon={
+		name=SIZ_character_bloodmoon
+		portraits={
+			civilian={
+				large= GFX_portrait_siz_bloodmoon
+			}
+		}
+		country_leader={
+			ideology=leninism
+			traits= {  }
+			expire="1947.1.1.1"
+		}
+	}
+}

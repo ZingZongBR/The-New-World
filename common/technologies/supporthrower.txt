@@ -1,0 +1,75 @@
+technologies = {
+	
+	@1918 = 0
+	@1936 = 2
+	@1938 = 4
+	@1939 = 6
+	@1940 = 8
+	@1941 = 10
+	@1942 = 12
+	@1943 = 14
+	@1944 = 16
+	@1945 = 18
+	@1946 = 20
+
+
+	tech_flamethrower = {
+		enable_subunits = {
+			flamethrower
+		}
+		
+		start_year = 1936
+		
+		allow = {
+		    always = no
+		}
+		
+	}
+	tech_flamethrower2 = {
+		flamethrower = {
+			soft_attack = 0.3
+			fort = {
+				defence = 0.10
+				attack = 0.2
+			}
+		}
+		
+		start_year = 1939
+		
+		allow = {
+		    always = no
+		}
+		
+	}
+	tech_flamethrower3 = {
+		flamethrower = {
+			soft_attack = 0.4
+			urban = {
+				attack = 0.5	
+				defence = 0.10
+			}
+		}
+		
+		start_year = 1942
+		
+		allow = {
+		    always = no
+		}
+		
+	}
+	tech_flamethrower4 = {
+		flamethrower = {
+			soft_attack = 0.5
+			fort = {
+				attack = 0.1
+			}
+		}
+		
+		start_year = 1945
+		
+		allow = {
+		    always = no
+		}
+		
+	}
+}

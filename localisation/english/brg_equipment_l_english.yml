@@ -1,0 +1,84 @@
+﻿l_english:
+ # okay, funny story, this file here was made for the spiritual predecessor
+ # of this mod. you might see a text box like this other places in this mod,
+ # as I'll be reusing a lot of things from that predecessor. Enjoy!
+ #GLK Equipment Ver.
+ GLK_EQUIPMENT_VERSION_1:0 "Ausf. A"
+ GLK_EQUIPMENT_VERSION_2:0 "Ausf. B"
+ GLK_EQUIPMENT_VERSION_3:0 "Ausf. C"
+ GLK_EQUIPMENT_VERSION_4:0 "Ausf. D"
+ GLK_EQUIPMENT_VERSION_5:0 "Ausf. E"
+ GLK_EQUIPMENT_VERSION_6:0 "Ausf. F"
+ GLK_EQUIPMENT_VERSION_7:0 "Ausf. G"
+ GLK_EQUIPMENT_VERSION_8:0 "Ausf. H"
+ GLK_EQUIPMENT_VERSION_9:0 "Ausf. I"
+ GLK_EQUIPMENT_VERSION_10:0 "Ausf.L"
+ 
+ #GLK Small Arms
+ GLK_infantry_equipment_0:0 "Karabin 1876 model"
+ GLK_infantry_equipment_0_short:0 "K1876"
+ GLK_infantry_equipment_1:0 "Kaleshia karabin model 28"
+ GLK_infantry_equipment_1_short:0 "K/K Mo.28"
+ GLK_infantry_equipment_2:0 "Polsmontoki Maschinenkarabin 1938 Model 40m ausf. A"
+ GLK_infantry_equipment_2_short:0 "P/Mk Mo.40A"
+ GLK_infantry_equipment_3:0 "Polsmontoki Maschinenkarabin 1942 Model 48m ausf. D"
+ GLK_infantry_equipment_3_short:0 "P/Mk Mo.48D"
+ #GLK Artillery
+ GLK_artillery_equipment_1:0 "Kaleshia 80mm Feldkannone 1927 Model 9"
+ GLK_artillery_equipment_1_short:0 "K/FelK Mo.9 8cm"
+ GLK_artillery_equipment_2:0 "Kaleshia 104mm Felkanone 1934 Model 12"
+ GLK_artillery_equipment_2_short:0 "K/FelK Mo.12 104mm"
+ GLK_artillery_equipment_3:0 "Cölsegrina 144mm Feldkannone 1942 Model 17"
+ GLK_artillery_equipment_3_short:0 "C/FelK Mo.17 144mm"
+ #GLK Rocket Artillery
+ GLK_rocket_artillery_equipment_1:0 "Geholts-Manteca 270mm Rakette artillerie 1940 Model 2"
+ GLK_rocket_artillery_equipment_1_short:0 "GM/Ra Mo.2 27cm"
+ GLK_rocket_artillery_equipment_2:0 "Geholts-Manteca 310mm Rakette artillerie 1943 Model 6"
+ GLK_rocket_artillery_equipment_2_short:0 "GM/Ra Mo.6 31cm"
+ #GLK Anti-tank
+ GLK_anti_tank_equipment_1:0 "Cölsegrina panzerabwehrkannone 1926 Model 20 45mm"
+ GLK_anti_tank_equipment_1_short:0 "C/PK Mo.20 4.5cm"
+ GLK_anti_tank_equipment_2:0 "Kaleshia panzerabwehrkannone 1937 Model 26 80mm"
+ GLK_anti_tank_equipment_2_short:0 "C/PK Mo.26 8cm"
+ GLK_anti_tank_equipment_3:0 "Cölsegrina panzerabwehrkannone 1942 Model 30 144mm"
+ GLK_anti_tank_equipment_3_short:0 "C/PK Mo.30 144mm"
+ #GLK Anti-air
+ GLK_anti_air_equipment_1:0 "Kaleshia flugabwehrkannone Model 1933 21 2cm"
+ GLK_anti_air_equipment_1_short:0 "K/FlaK Mo.21 2cm"
+ GLK_anti_air_equipment_2:0 "Kaleshia flugabwehrkannonezwilling 1938 Model 29 3cm"
+ GLK_anti_air_equipment_2_short:0 "K/FlaK2 Mo.29 3cm"
+ GLK_anti_air_equipment_3:0 "Cölsegrina flugabwehrkannonevierling 1942 Model 35 4cm"
+ GLK_anti_air_equipment_3_short:0 "C/FlaK4 Mo.35 4cm"
+ 
+ #FEL Equipment Ver.
+ FEL_EQUIPMENT_VERSION_1:0 "Ausf. A"
+ FEL_EQUIPMENT_VERSION_2:0 "Ausf. B"
+ FEL_EQUIPMENT_VERSION_3:0 "Ausf. C"
+ FEL_EQUIPMENT_VERSION_4:0 "Ausf. D"
+ FEL_EQUIPMENT_VERSION_5:0 "Ausf. E"
+ FEL_EQUIPMENT_VERSION_6:0 "Ausf. F"
+ FEL_EQUIPMENT_VERSION_7:0 "Ausf. G"
+ FEL_EQUIPMENT_VERSION_8:0 "Ausf. H"
+ FEL_EQUIPMENT_VERSION_9:0 "Ausf. I"
+ FEL_EQUIPMENT_VERSION_10:0 "Ausf.L"
+ 
+ #FEL Small Arms
+ FEL_infantry_equipment_0:0 "Karabin 1876 model"
+ FEL_infantry_equipment_0_short:0 "K1876"
+ FEL_infantry_equipment_1:0 "Kaleshia karabin model 28"
+ FEL_infantry_equipment_1_short:0 "Model 28"
+ #FEL Artillery
+ FEL_artillery_equipment_1:0 "Kaleshia 80mm Feldkannone 1927 Model 9"
+ FEL_artillery_equipment_1_short:0 "Kaleshia FK9 8cm"
+ FEL_artillery_equipment_2:0 "Kaleshia 104mm Felkanone 1934 Model 12"
+ FEL_artillery_equipment_2_short:0 "Kaleshia FK12 104mm"
+ #FEL Anti-tank
+ FEL_anti_tank_equipment_1:0 "Cölsegrina panzerabwehrkannone 1926 Model 20 45mm"
+ FEL_anti_tank_equipment_1_short:0 "Cölsegrina PaK20 4.5cm"
+ FEL_anti_tank_equipment_2:0 "Kaleshia panzerabwehrkannone 1935 Model 24 60mm"
+ FEL_anti_tank_equipment_2_short:0 "Kaleshia PaK24 6cm"
+ #FEL Anti-air
+ FEL_anti_air_equipment_1:0 "Magistera flugabwehrkannone Model 1929 8 15mm"
+ FEL_anti_air_equipment_1_short:0 "Magistera FlaK8 15mm"
+ FEL_anti_air_equipment_2:0 "Magistera flugabwehrkannonezwilling 1936 model 16 2cm"
+ FEL_anti_air_equipment_2_short:0 "Magistera FlaK16 2cm"

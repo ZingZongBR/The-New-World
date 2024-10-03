@@ -1,0 +1,13 @@
+spriteTypes = {
+
+	### SIZ
+
+	spriteType = {
+		name = "GFX_portrait_siz_zing"
+		texturefile = "gfx/leaders/SIZ/Zing.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_siz_bloodmoon"
+		texturefile = "gfx/leaders/SIZ/BloodMoon.dds"
+	}

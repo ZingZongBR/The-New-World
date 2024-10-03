@@ -1,0 +1,88 @@
+characters = {
+
+	#stupid council fuck you
+	vogel_partit = {
+		name = "Vaksovia Regentschaft"
+		portraits = {
+			civilian = {
+				large = GFX_Vogel_Partit
+			}
+		}
+		
+		country_leader = {
+			ideology = conservatism
+			traits = {
+				the_grand_council
+			}
+		}
+	}
+	
+	#Seth Wherts
+	seth_wherts_schlafli = {
+		name = "Duke Seth Wherts-Schläfli of Glaksa"
+		portraits = {
+			civilian = {
+				large = GFX_Seth_Wherts_Large
+			}
+		}
+		
+		country_leader = {
+			ideology = constitutional_monarchy
+			traits = {
+				headstrong
+				political_dancer
+			}
+		}
+	}
+	
+	#glaksian army stuff
+	otto_marshal = {
+		name = "Otto von Wothe-Sigfrid II"
+		
+		field_marshal = {
+			traits = { trait_cautious harsh_leader expert_delegator }
+            skill = 4
+            attack_skill = 3
+            defense_skill = 5
+            planning_skill = 1
+            logistics_skill = 4
+		}
+	}
+	
+	konrad_general = {
+		name = "Konrad Toter-Kosik"
+		
+		corps_commander = {
+			traits = { trickster ranger substance_abuser }
+            skill = 5
+            attack_skill = 5
+            defense_skill = 3
+            planning_skill = 3
+            logistics_skill = 2
+		}
+	}
+	stripol_general = {
+		name = "Viktor Stripol"
+		
+		corps_commander = {
+			traits = { disgruntled urban_assault_specialist }
+            skill = 3
+            attack_skill = 2
+            defense_skill = 4
+            planning_skill = 2
+            logistics_skill = 1
+		}
+	}
+	sekhoi_general = {
+		name = "Ernst Sekhoi"
+		
+		corps_commander = {
+			traits = { commando trait_engineer adaptable }
+            skill = 6
+            attack_skill = 5
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 3
+		}
+	}
+}

@@ -1,0 +1,59 @@
+spriteTypes = {
+	#Seth uwu
+	spriteType = {
+		name = "GFX_Seth_Wherts_Large"
+		texturefile = "gfx/leaders/glk/glk_seth_wherts.dds"
+	}
+	spriteType = {
+		name = "GFX_Seth_Wherts_Small"
+		texturefile = "gfx/leaders/glk/seth_wherts.dds"
+	}
+	spriteType = {
+		name = "GFX_Seth_Wherts_God"
+		texturefile = "gfx/leaders/glk/glk_seth_wherts_god.dds"
+	}
+	#fenek angy
+	spriteType = {
+		name = "GFX_Fenek_Large"
+		texturefile = "gfx/leaders/glk/glk_fenek_bismark.dds"
+	}
+	spriteType = {
+		name = "GFX_Fenek_Small"
+		texturefile = "gfx/leaders/glk/fenek_von_vaile.dds"
+	}
+	#devon owo
+	spriteType = {
+		name = "GFX_Devon_Large"
+		texturefile = "gfx/leaders/glk/glk_devon_ii_hell.dds"
+	}
+	spriteType = {
+		name = "GFX_Devon_Small"
+		texturefile = "gfx/leaders/glk/devon_von_hell.dds"
+	}
+	#aleph uwu
+	spriteType = {
+		name = "GFX_Aleph_Large"
+		texturefile = "gfx/leaders/glk/glk_aleph_i_wherts.dds"
+	}
+	spriteType = {
+		name = "GFX_Aleph_Small"
+		texturefile = "gfx/leaders/glk/aleph_schlafli.dds"
+	}
+	spriteType = {
+		name = "GFX_Aleph_God"
+		texturefile = "gfx/leaders/glk/glk_aleph_i_wherts_god.dds"
+	}
+	spriteType = {
+		name = "GFX_Vogel_Partit"
+		texturefile = "gfx/leaders/glk/glk_vogel_partit.dds"
+	}
+	spriteType = {
+		name = "GFX_Furry_Council1"
+		texturefile = "gfx/leaders/glk/prov_council_neq.dds"
+	}
+	spriteType = {
+		name = "GFX_Furry_Council2"
+		texturefile = "gfx/leaders/glk/prov_council.dds"
+	}
+	
+}

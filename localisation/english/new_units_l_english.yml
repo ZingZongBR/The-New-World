@@ -1,0 +1,17 @@
+﻿l_english:
+
+ 
+#######################
+jaeger:0 "Light Infantry"
+jaeger_desc:0 ""
+
+draesaner_infanterie:0 "Draesan Infantry"
+draesaner_infanterie_desc:0 ""
+
+shocktroop:0 "Shock Troops"
+shocktroop_desc:0 "Shock Troops can smash into Enemy lines to achieve a break through. This is almost essential to any form of Deep-Battle and can greatly contribute to throwing the Defenders into disarray."
+
+flamethrower:0 "Flamethrower Support"
+flamethrower_desc:0 "Flamethrowers can be of great help in close Combat. It can be very costly to clear Houses and Fortifications with regular Infantry Units. The Flamethrower will greatly aid in such tasks and close range combat against soft Units in general."
+
+

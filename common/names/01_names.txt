@@ -1,0 +1,115 @@
+GLK = {
+	male = {
+		names = { Kelsen Mikaeli Galabriel Gregori Lukacs Franz Otto Konrad Viktor Johannes Johanne Johann Ernest }
+		surnames = {  }
+		callsigns = {  }
+	}
+	female = {
+		names = { Lanya Katrina Anna Brigit Johanna Bertha Emylia Emy Adelheide Gisela Heidi Ada }
+		surnames = { }
+		callsigns = { "Dame und Luft" "Flugfürstin" "Mordemaid" "Falke" "Eule" "Blaue Primel" }
+	}
+	surnames = { Prynoski Sehen Halmer Kelsen Sekhoi Graf Götzen Göeritz Kursont Drarkon Sanbat Szveski Schweiz Stripol Kosik Herm Loch Lochkov Gorst Wothe Rothë "Gorst-Sehen" "Graf-Szveski" "von Göeritz" "von Graf" Fül }
+	callsigns = { "Tod" "Dornröschen" "Flitzer" "Dickermann" "Adlerfliege" "Regen" "Die Sonne" }
+	
+	
+	#Operations - treat these as keys, not strings.
+	prefix = o_operation
+	
+	operation = {
+		0 = { o_default_operation }
+	}
+	
+	use_geographical_default_operation_names = yes
+	offensive_operation_suffix = o_strat_offensive_default
+	defensive_operation_suffix = o_strat_defensive_default
+	naval_operation_suffix = o_strat_naval_default
+	
+}
+
+FEL = {
+	male = {
+		names = { Kelsen Mikaeli Galabriel Gregori Lukacs Franz Otto Konrad Viktor Johannes Johanne Johann Ernest }
+		surnames = {  }
+		callsigns = {  }
+	}
+	female = {
+		names = { Lanya Katrina Anna Brigit Johanna Bertha Emylia Emy Adelheide Gisela Heidi Ada }
+		surnames = { }
+		callsigns = { "Dame und Luft" "Flugfürstin" "Mordemaid" "Falke" "Eule" "Blaue Primel" }
+	}
+	surnames = { Prynoski Sehen Halmer Kelsen Sekhoi Graf Götzen Göeritz Kursont Drarkon Sanbat Szveski Schweiz Stripol Kosik Herm Loch Lochkov Gorst Wothe Rothë "Gorst-Sehen" "Graf-Szveski" "von Göeritz" "von Graf" Fül }
+	callsigns = { "Tod" "Dornröschen" "Flitzer" "Dickermann" "Adlerfliege" "Regen" "Die Sonne" }
+	
+	
+	#Operations - treat these as keys, not strings.
+	prefix = o_operation
+	
+	operation = {
+		0 = { o_default_operation }
+	}
+	
+	use_geographical_default_operation_names = yes
+	offensive_operation_suffix = o_strat_offensive_default
+	defensive_operation_suffix = o_strat_defensive_default
+	naval_operation_suffix = o_strat_naval_default
+	
+}
+
+GOT = {
+	male = {
+		names = { Felix Galabriel Thomas Martin Hugin David Dani Karl Norian Adrian Mattias }
+		surnames = {  }
+		callsigns = {  }
+	}
+	female = {
+		names = { Elizabeth Abigail Lanna Romanya }
+		surnames = { }
+		callsigns = { "Dame und Luft" "Flugfürstin" "Mordemaid" "Falke" "Eule" "Blaue Primel" }
+	}
+	surnames = { Tolkien Goeritz Lowe Nostal Berie Morgwell Einaudi Houdini Vivaldi Munch Schmit Shilage Harling Stefferson }
+	callsigns = { "Tod" "Dornröschen" "Flitzer" "Dickermann" "Adlerfliege" "Regen" "Die Sonne" }
+	
+	
+	#Operations - treat these as keys, not strings.
+	prefix = o_operation
+	
+	operation = {
+		0 = { o_default_operation }
+	}
+	
+	use_geographical_default_operation_names = yes
+	offensive_operation_suffix = o_strat_offensive_default
+	defensive_operation_suffix = o_strat_defensive_default
+	naval_operation_suffix = o_strat_naval_default
+	
+}
+
+FON = {
+	male = {
+		names = { Faeslis Norwall Helkov Nathelian Navael Ugtov }
+		surnames = {  }
+		callsigns = {  }
+	}
+	female = {
+		names = { Agnieszka Natrisia }
+		surnames = { }
+		callsigns = { "Dame und Luft" "Flugfürstin" "Mordemaid" "Falke" "Eule" "Blaue Primel" }
+	}
+	surnames = { Dornian Havenith Alfen Kornelius Kromt Lautrec Süskind Haupzel Holzen }
+	callsigns = { "Tod" "Dornröschen" "Flitzer" "Dickermann" "Adlerfliege" "Regen" "Die Sonne" }
+	
+	
+	#Operations - treat these as keys, not strings.
+	prefix = o_operation
+	
+	operation = {
+		0 = { o_default_operation }
+	}
+	
+	use_geographical_default_operation_names = yes
+	offensive_operation_suffix = o_strat_offensive_default
+	defensive_operation_suffix = o_strat_defensive_default
+	naval_operation_suffix = o_strat_naval_default
+	
+}

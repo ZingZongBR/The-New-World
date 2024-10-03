@@ -1,0 +1,8 @@
+spriteTypes = {	
+
+	SpriteType = {
+		name = "GFX_idea_resegare_merch"
+		texturefile = "gfx/interface/ideas/resegare_merch.dds"
+		}
+	}	
+		

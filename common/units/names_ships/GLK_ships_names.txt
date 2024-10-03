@@ -1,0 +1,154 @@
+GLK_Ss_submarines = {
+	name = "SS Submarin"
+	
+	for_countries = { GLK }
+	
+	type = ship
+	ship_types = { submarine ship_hull_submarine }
+	
+	fallback_name = "SS Submarin %s"
+	
+	ordered = {
+	1 = {"Ss Poltava"}
+	2 = {"Ss Dyniza"}
+	3 = {"Ss Wennio"}
+	4 = {"Ss Syllika"}
+	5 = {"Ss Jollin"}
+	6 = {"Ss Ulminaka"}
+	7 = {"Ss Styrnco"}
+	8 = {"Ss Dweller"}
+	9 = {"Ss Yggdrasil"}
+	10 = {"Ss Tubbo"}
+	11 = {"Ss Tuggo"}
+	12 = {"Ss Tecko"}
+	13 = {"Ss Bell"}
+	14 = {"Ss Sleeker"}
+	15 = {"Ss Pontoon"}
+	17 = {"Ss Caravana"}
+	18 = {"Ss Pollius"}
+	19 = {"Ss Furria"}
+	20 = {"Ss Phobos"}
+	21 = {"Ss Kallinka"}
+	22 = {"Ss Carbonifferus"}
+	23 = {"Ss Tyllapia"}
+	24 = {"Ss Ulkonia"}
+	25 = {"Ss Crytter"}
+	26 = {"Ss Moniffo"}
+	27 = {"Ss Leskenna"}
+	28 = {"Ss Jullyan"}
+	29 = {"Ss Aspargus"}
+	30 = {"Ss Linda"}
+	31 = {"Ss Luban-Kemper"}
+	32 = {"Ss Hullion"}
+	33 = {"Ss Reggalion"}
+	}
+}
+GLK_GMW_kboat = {
+	name = "Glaksische Marinzweig"
+	
+	for_countries = { GLK }
+	
+	type = ship
+	ship_types = { ship_hull_light }
+	
+	fallback_name = "GMW Kopols %s"
+	
+	ordered = {
+	1 = {"GMW Krantava"}
+	2 = {"GMW Ponlovo"}
+	3 = {"GMW Cranfolt"}
+	4 = {"GMW Listenia"}
+	5 = {"GMW Askerfan"}
+	6 = {"GMW Olewat"}
+	7 = {"GMW Knila"}
+	8 = {"GMW Post"}
+	9 = {"GMW Gerht"}
+	10 = {"GMW Liwet"}
+	11 = {"GMW Osbant"}
+	12 = {"GMW Serwatf"}
+	13 = {"GMW Polter"}
+	14 = {"GMW Nojillus"}
+	15 = {"GMW Nautillus"}
+	16 = {"GMW Walling"}
+	17 = {"GMW Ytgor"}
+	18 = {"GMW Visby"}
+	19 = {"GMW Garma"}
+	20 = {"GMW Dal"}
+	21 = {"GMW Upvert"}
+	22 = {"GMW Lesmant"}
+	23 = {"GMW Yesnat"}
+	24 = {"GMW Gisfratk"}
+	25 = {"GMW Tervac"}
+	26 = {"GMW Cavert"}
+	27 = {"GMW Yevolt"}
+	28 = {"GMW Keverat"}
+	29 = {"GMW Anobolt"}
+	30 = {"GMW Bolet"}
+	31 = {"GMW Berfer"}
+	32 = {"GMW Alafrat"}
+	33 = {"GMW Umont"}
+	34 = {"GMW Defont"}
+	35 = {"GMW Delant"}
+	}
+}
+GLK_GN_boat = {
+	name = "GN Cruise-Destroyers"
+	
+	for_countries = { GLK }
+	
+	type = ship
+	ship_types = { ship_hull_cruiser }
+	
+	fallback_name = "GN Cróisaw %s"
+	
+	ordered = {
+	1 = {"GN Weslav"}
+	2 = {"GN Ugrik"}
+	3 = {"GN Vakso"}
+	4 = {"GN Levant"}
+	5 = {"GN Malasya"}
+	6 = {"GN Evolta"}
+	7 = {"GN Venusea"}
+	8 = {"GN Telynata"}
+	9 = {"GN Pekovo"}
+	10 = {"GN Inevar"}
+	11 = {"GN Meldova"}
+	12 = {"GN Kerwenov"}
+	13 = {"GN Iglic"}
+	14 = {"GN Votgil"}
+	15 = {"GN Olonov"}
+	16 = {"GN Asfoskos"}
+	17 = {"GN Orgalas"}
+	18 = {"GN Nogal"}
+	19 = {"GN Nivkich"}
+	20 = {"GN Belbaffer"}
+	}
+}
+GLK_KS_boat = {
+	name = "Kapitale-Schiffen"
+	
+	for_countries = { GLK }
+	
+	type = ship
+	ship_types = { ship_hull_heavy  }
+	
+	fallback_name = "Grann Schiffen %s"
+	
+	ordered = {
+	1 = {"Ks. Gërth-Yponta"}
+	2 = {"Ks. Apellos"}
+	3 = {"Ks. Schlafli"}
+	4 = {"Ks. Hellenia"}
+	5 = {"Ks. Frytoria"}
+	6 = {"Ks. Wertpol"}
+	7 = {"Ks. Wherts"}
+	8 = {"Ks. Brock"}
+	9 = {"Ks. Yevelon"}
+	10 = {"Ks. Egratac"}
+	11 = {"Ks. Renolliv"}
+	12 = {"Ks. Ontera"}
+	13 = {"Ks. Jevter"}
+	14 = {"Ks. Nullive"}
+	15 = {"Ks. Alive"}
+	}
+}

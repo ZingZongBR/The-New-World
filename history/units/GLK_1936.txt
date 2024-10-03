@@ -1,0 +1,210 @@
+division_template = {
+name = "Leichte Infantrie"
+	division_names_group = GLK_leichte_infantrie
+	priority = 0
+	regiments = {
+		draesaner_infanterie = { x = 0 y = 0 }
+		draesaner_infanterie = { x = 0 y = 1 }
+		draesaner_infanterie = { x = 1 y = 1 }
+		draesaner_infanterie = { x = 1 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Infantriedivision"
+	division_names_group = GLK_infantrie
+	priority = 1
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+name = "Spähen Infantrieregiment"
+	division_names_group = GLK_spahen_regiment
+	priority = 1
+	regiments = {
+		draesaner_infanterie = { x = 0 y = 0 }
+		draesaner_infanterie = { x = 0 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+name = "Schwerer Infantriedivision"
+	division_names_group = GLK_schwerer_infantrie
+	priority = 2
+	regiments = {
+		draesaner_infanterie = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		draesaner_infanterie = { x = 0 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		artillery_brigade = { x = 3 y = 0 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Schwerer Infantriedivision"
+	division_names_group = GLK_schwerer_infantrie
+	priority = 1
+	regiments = {
+		draesaner_infanterie = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		draesaner_infanterie = { x = 0 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		artillery_brigade = { x = 3 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Heimatverteidigungsbatallion"
+	division_names_group = GLK_heimat
+	priority = 1
+	regiments = {
+		draesaner_infanterie = { x = 0 y = 0 }
+	}
+}
+
+
+
+units = {
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11380
+		division_template = "Heimatverteidigungsbatallion"
+		start_experience_factor = 0.2
+        start_equipment_factor = 0.4
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 11380
+		division_template = "Heimatverteidigungsbatallion"
+		start_experience_factor = 0.2
+        start_equipment_factor = 0.4
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 242
+		division_template = "Heimatverteidigungsbatallion"
+		start_experience_factor = 0.2
+        start_equipment_factor = 0.4
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 9329
+		division_template = "Heimatverteidigungsbatallion"
+		start_experience_factor = 0.2
+        start_equipment_factor = 0.4
+	}
+	
+	
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9406
+		division_template = "Infantriedivision"
+		start_experience_factor = 0.3
+        start_equipment_factor = 0.4
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 9406
+		division_template = "Infantriedivision"
+		start_experience_factor = 0.3
+        start_equipment_factor = 0.4
+	}
+	
+	
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6311
+		division_template = "Spähen Infantrieregiment"
+		start_experience_factor = 0.65
+        start_equipment_factor = 0.25
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6397
+		division_template = "Spähen Infantrieregiment"
+        start_experience_factor = 0.65
+        start_equipment_factor = 0.25
+	}
+	
+}
+
+air_wings = {
+    970 = {
+        fighter_equipment_0 = {
+            owner = "GLK"
+            amount = 100
+            version_name = "Johannes Fz.4 'Liebling'" 
+        }
+    }
+	913 = {
+        fighter_equipment_0 = {
+            owner = "GLK"
+            amount = 30
+            version_name = "Johannes Fz.4 'Liebling'" 
+        }
+    }
+}
+
+instant_effect = {
+    add_equipment_production = {
+        equipment = {
+	    type = infantry_equipment_1
+	    creator = "GLK"
+	}
+	requested_factories = 2
+	progress = 0.0
+	efficiency = 100
+    }
+}

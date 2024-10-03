@@ -1,0 +1,199 @@
+﻿# hey, dear file browser... person. you shouldn't
+# really be here, but it's not like I care, so why
+# not yap while you're already here.
+# I don't actually know what this nation was meant
+# to be. it was taken from an old version of the
+# mod (back when it was called "Fall of the Drasils"),
+# and thus, a lot of it has been (sadly) lost to
+# time. either way, have fun in here, i guess.
+
+capital = 145
+
+set_oob = FEL_1936
+
+create_country_leader = {
+	name = "Feluvianer Rat"
+	desc = ""
+	picture = "GFX_Furry_Council2"
+	expire = "1965.1.1"
+	ideology = oligarchism
+	traits = {
+	}
+}
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_trucks = 1
+	gw_artillery = 1
+	interwar_artillery = 1
+	interwar_antiair = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	basic_train = 1
+	interwar_antitank = 1
+	
+	iw_small_airframe = 1
+	aa_lmg = 1
+	engines_1 = 1
+	early_bombs = 1
+
+	gwtank_chassis = 1
+	
+	transport = 1
+	
+	early_ship_hull_light = 1
+	basic_ship_hull_light = 1
+	early_ship_hull_submarine = 1
+	early_ship_hull_cruiser = 1
+	basic_battery = 1
+	basic_cruiser_armor_scheme = 1
+	basic_torpedo = 1
+	basic_depth_charges = 1
+	coastal_defense_ships = 1
+	mtg_transport = 1
+	early_ship_hull_heavy = 1
+}
+set_research_slots = 3
+set_convoys = 15
+set_stability = 0.55
+set_war_support = 0.3
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 14
+	neutrality = 21
+	communism = 14
+	fascism = 6
+	monarchism = 45
+}
+
+
+add_ideas = {
+	general_staff
+	limited_exports
+	volunteer_only
+	civilian_economy
+}
+
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	### Ship Variants ###
+	## 1936 Start ##
+	# Light Cruisers #
+	create_equipment_variant = {
+		name = "Aland Klasse"
+		type = light_cruiser_1
+		parent_version = 0
+		upgrades = {
+			ship_reliability_upgrade = 2
+			ship_engine_upgrade = 2
+			ship_gun_upgrade = 2
+			ship_anti_air_upgrade = 2
+		}
+		obsolete = yes
+	}
+	# Heavy Cruisers #
+	create_equipment_variant = {
+		name = "Kalmaria Klasse"
+		type = heavy_cruiser_1
+		parent_version = 0
+		upgrades = {
+			ship_reliability_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_armor_upgrade = 1
+			ship_gun_upgrade = 2
+		}
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	create_equipment_variant = {
+		name = "GAW Erste-Walze"
+		type = light_tank_chassis_0
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_small_cannon
+			turret_type_slot = tank_light_two_man_tank_turret
+			suspension_type_slot = tank_christie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			special_type_slot_1 = tank_radio_1
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 2
+			tank_nsb_armor_upgrade = 2
+		}
+		obsolete = yes
+		icon = "GFX_gwtank_medium"
+	}
+	create_equipment_variant = {
+		name = "GAW Hauptschlag"
+		type = light_tank_chassis_1
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_heavy_machine_gun
+			turret_type_slot = tank_light_one_man_tank_turret
+			suspension_type_slot = tank_christie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			special_type_slot_1 = tank_radio_1
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 5
+			tank_nsb_armor_upgrade = 1
+		}
+		icon = "GFX_GER_basic_light_tank_medium"
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "Kendel Jispen HL1 "
+		type = heavy_tank_chassis_1
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_close_support_gun
+			turret_type_slot = tank_heavy_three_man_tank_turret
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			special_type_slot_1 = tank_radio_1
+			special_type_slot_2 = secondary_turret_hmg
+			special_type_slot_3 = secondary_turret_hmg
+			special_type_slot_4 = secondary_turret_hmg
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 6
+			tank_nsb_armor_upgrade = 2
+		}
+		icon = "GFX_GER_basic_heavy_tank_medium"
+	}
+	create_equipment_variant = {
+		name = "Kendel Condoler II.1"
+		type = light_tank_chassis_2
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_auto_cannon
+			turret_type_slot = tank_light_two_man_tank_turret
+			suspension_type_slot = tank_christie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			special_type_slot_1 = tank_radio_1
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 3
+			tank_nsb_armor_upgrade = 2
+		}
+		icon = "GFX_GER_improved_light_tank_medium"
+	}
+}

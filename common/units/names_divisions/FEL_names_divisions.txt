@@ -1,0 +1,214 @@
+FEL_Orkastam = {
+	name = "Orkastam"
+	
+	for_countries = { FEL }
+	
+	can_use = { always = yes }
+	
+	division_types = { "infantry" }
+	
+	fallback_name = "%d. Orkastam"
+	
+	ordered = {
+		1 = { "%s Wherts Orkastam" }
+		2 = { "%s Hell Orkastam" }
+		3 = { "%s Schlafli Orkastam" }
+		4 = { "%s Vaile Orkastam" }
+		5 = { "%s Sperker Orkastam" }
+		6 = { "%s Mawller Orkastam" }
+		7 = { "%s Fritzlock Orkastam" }
+		8 = { "%s Dyn Orkastam" }
+		9 = { "%s Afwerk Orkastam" }
+		10 = { "%s Ecksliech Orkastam" }
+		11 = { "%s Sunber Orkastam" }
+		12 = { "%s Linbber Orkastam" }
+		13 = { "%s Westphalen Orkastam" }
+		14 = { "%s Strieker Orkastam" }
+		15 = { "%s Wenfer Orkastam" }
+		16 = { "%s Pourton Orkastam" }
+		17 = { "%s Festro Orkastam" }
+		18 = { "%s Menchievek Orkastam" }
+		19 = { "%s Lossion Orkastam" }
+		20 = { "%s Lunzer Orkastam" }
+		21 = { "%s Depennar Orkastam" }
+		22 = { "%s Senkar Orkastam" }
+		23 = { "%s Ulmania Orkastam" }
+		24 = { "%s Drakorn Orkastam" }
+	}
+}
+FEL_eliten_infantrie = {
+	name = "Eliten Korpus"
+	
+	for_countries = { FEL }
+	can_use = { always = yes }
+	division_types = { "infantry" }
+	fallback_name = "%sa Eliten Korpus"
+	
+	ordered = {
+		1 = { "%da 'Glaksaska' Elite Korps" }
+		2 = { "%da 'Alephijana' Elite Korps" }
+		3 = { "%da 'Hellijinka' Elite Korps" }
+		4 = { "%da 'Fonukski' Elite Korps" }
+		5 = { "%da 'Vanzigrav' Elite Korps" }
+		6 = { "%da 'Verdeval' Elite Korps" }
+		7 = { "%da 'Lynch' Elite Korps" }
+		8 = { "%da 'Korvus' Elite Korps" }
+		9 = { "%da 'Novelta' Elite Korps" }
+		10 = { "%da 'Devastrus' Elite Korps" }
+		11 = { "%da 'Gallivostor' Elite Korps" }
+		12 = { "%da 'Klovunits' Elite Korps" }
+		13 = { "%da 'Mergorliv' Elite Korps" }
+		14 = { "%da 'Nirvopoch' Elite Korps" }
+		15 = { "%da 'Agovilla' Elite Korps" }
+		16 = { "%da 'Vinerga' Elite Korps" }
+		18 = { "%da 'Kevallinus' Elite Korps" }
+		19 = { "%da 'Grynobus' Elite Korps" }
+		20 = { "%da 'Anavaserka' Elite Korps" }
+		21 = { "%da 'Srbonika' Elite Korps" }
+		22 = { "%da 'Zero' Elite Korps" }
+		23 = { "%da 'Undovski' Elite Korps" }
+		24 = { "%da 'Aerykana' Elite Korps" }
+		25 = { "%da 'Opus' Elite Korps" }
+		26 = { "%da 'Skorika' Elite Korps" }
+		27 = { "%da 'Musis' Elite Korps" }
+		28 = { "%da 'Sibelinus' Elite Korps" }
+		29 = { "%da 'Finallie' Elite Korps" }
+		30 = { "%da Puppetka Korps" }
+	}
+}
+FEL_colonial_garrison = {
+	name = "Kolonialle Garnizon"
+	
+	for_countries = { FEL }
+	
+	can_use = { always = yes }
+	
+	division_types = { "infantry" }
+	
+	fallback_name = "%d Kolonialle Garnizon"
+	
+	ordered = {
+		1 = { "'Sumberchaft' KG %s" }
+		2 = { "'Kumperfallen' KG %s" }
+		3 = { "'Sickleshion' KG %s" }
+		4 = { "'Refromstor' KG %s" }
+		5 = { "'Nachtlashien' KG %s" }
+		6 = { "'Nitolasfiren' KG %s" }
+		7 = { "'Litonsphere' KG %s" }
+		8 = { "'Cumming' KG %s" }
+		9 = { "'Hellinijota' KG %s" }
+		10 = { "'Zekraminos' KG %s" }
+		11 = { "'Esvelgren' KG %s" }
+		12 = { "'Eratas' KG %s" }
+		13 = { "'Hororevina' KG %s" }
+		14 = { "'Paltikra' KG %s" }
+		15 = { "'Fennekon' KG %s" }
+		16 = { "'Hellijkon' KG %s" }
+		17 = { "'Pupetka-Meister' KG %s" }
+		18 = { "'Fohul-Meister' KG %s" }
+		19 = { "'Fohulon' KG %s" }
+		20 = { "'Alefijon' KG %s" }
+	}
+}
+
+FEL_infantry_1 = {
+	name = "Infantrie Enhet"
+	
+	for_countries = { FEL }
+	
+	can_use = { always = yes }
+	
+	division_types = { "infantry" }
+	
+	fallback_name = "%d Infantrie-Enhet"
+}
+GLK_infantry_defense = {
+	name = "Schutz-Infantrie"
+	
+	for_countries = { FEL }
+	
+	can_use = { always = yes }
+	
+	division_types = { "infantry" }
+	
+	fallback_name = "%d. Schutzenhet"
+}
+FEL_infantry_artillery = {
+	name = "Artillerie-Infantrie"
+	
+	for_countries = { FEL }
+	
+	can_use = { always = yes }
+	
+	division_types = { "infantry" }
+	
+	fallback_name = "%d Grenadier Enhet"
+}
+GLK_mass_infantry = {
+	name = "Volkinfantrie"
+	
+	for_countries = { FEL }
+	
+	can_use = { always = yes }
+	
+	division_types = { "infantry" }
+	
+	fallback_name = "%d Volks Enhet"
+}
+
+FEL_mob_inf_01 = {
+	name = "Mobilijka Pietochy"
+	
+	for_countries = { FEL }
+	
+	can_use = { always = yes }
+	
+	division_types = { "infantry" }
+	
+	fallback_name = "%da Mobilijka Pietochy"
+	
+	ordered = {
+		1 = { "%sa 'Gordobwa' Mobi. Pietochy" }
+		2 = { "%sa 'Varsawia' Mobi. Pietochy" }
+		3 = { "%sa 'Grobovich' Mobi. Pietochy" }
+		4 = { "%sa 'Venikstad' Mobi. Pietochy" }
+		5 = { "%sa 'Stanijka' Mobi. Pietochy" }
+		6 = { "%sa 'Telleria' Mobi. Pietochy" }
+		7 = { "%sa 'Bosanska' Mobi. Pietochy" }
+		8 = { "%sa 'Srpska' Mobi. Pietochy" }
+		9 = { "%sa 'Zagrebia' Mobi. Pietochy" }
+		10 = { "%sa 'Mozinka' Mobi. Pietochy" }
+		11 = { "%sa 'Gorbichev' Mobi. Pietochy" }
+		12 = { "%sa 'Bonvonigra' Mobi. Pietochy" }
+		13 = { "%sa 'Crowron' Mobi. Pietochy" }
+		14 = { "%sa 'Karelinka' Mobi. Pietochy" }
+		15 = { "%sa 'Florensia' Mobi. Pietochy" }
+		16 = { "%sa 'Yngrevin' Mobi. Pietochy" }
+		17 = { "%sa 'Vorboda' Mobi. Pietochy" }
+		18 = { "%sa 'Spironik' Mobi. Pietochy" }
+		19 = { "%sa 'Versuch' Mobi. Pietochy" }
+		20 = { "%sa 'Grandeza' Mobi. Pietochy" }
+	}
+}
+FEL_marines = {
+	name = "Havman"
+	
+	for_countries = { FEL }
+	
+	can_use = { always = yes }
+	
+	division_types = { "infantry" }
+	
+	fallback_name = "%sa Havman Enhet"
+}
+FEL_tank1 = {
+	name = "Panzer Korp"
+	
+	for_countries = { FEL }
+	
+	can_use = { always = yes }
+	
+	division_types = { "infantry" }
+	
+	fallback_name = "%s. Panzer Korp"
+}

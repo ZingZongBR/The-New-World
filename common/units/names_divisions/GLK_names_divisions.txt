@@ -1,0 +1,199 @@
+GLK_pionier = {
+	name = "Feluvian Pioneers"
+	
+	for_countries = { GLK }
+	
+	can_use = { owns_state = 140 }
+	
+	division_types { "infantry" "motorized" "mechanized" }
+	
+	fallback_name = "%s Feluvier Pioniere"
+	
+}
+
+GLK_heimat = {
+	name = "Home Defense Army"
+	
+	for_countries = { GLK }
+	
+	can_use = { always = yes }
+	
+	division_types { "infantry" "light_armor" }
+	
+	fallback_name = "Heimatbrigade %s"
+	
+	ordered = {
+	1 = { "'Primo Victoria' Heimatbrigade %s" }
+	2 = { "'Oskar' Heimatbrigade %s" }
+	3 = { "'Beleuchtung' Heimatbrigade %s" }
+	4 = { "'Antennen zum Himmel' Heimatbrigade %s" }
+	5 = { "'Fjörd' Heimatbrigade %s" }
+	6 = { "'Pfadfinderinnen' Heimatbrigade %s" }
+	7 = { "'Regalia' Heimatbrigade %s" }
+	8 = { "'Nordmann' Heimatbrigade %s" }
+	9 = { "'Lanzenfliegen' Heimatbrigade %s" }
+	10 = { "'Zirkus' Heimatbrigade %s" }
+	11 = { "'Diplomaten' Heimatbrigade %s" }
+	12 = { "'Hundefleish' Heimatbrigade %s" }
+	13 = { "'Hirschbataillon' Heimatbrigade %s" }
+	}
+}
+GLK_leichte_infantrie = {
+	name = "Light Infantry"
+	
+	for_countries = { GLK }
+	
+	can_use = { always = yes }
+	
+	division_types { "infantry" }
+	
+	fallback_name = "%d Leichte Infanterieregiment"
+	
+}
+GLK_infantrie = {
+	name = "Infantry Division"
+	
+	for_countries = { GLK }
+	
+	can_use = { always = yes }
+	
+	division_types { "infantry" }
+	
+	fallback_name = "%d Infanteriedivision"
+	
+}
+GLK_schwerer_infantrie = {
+	name = "Heavy Infantrie"
+	
+	for_countries = { GLK }
+	
+	can_use = { always = yes }
+	
+	division_types { "infantry" }
+	
+	fallback_name = "%d Grenadier-Infanteriedivision"
+	
+}
+GLK_gebirgs = {
+	name = "Mountain Division"
+	
+	for_countries = { GLK }
+	
+	can_use = { always = yes }
+	
+	division_types { "infantry" }
+	
+	fallback_name = "%d Gebirgsdivision"
+	
+}
+GLK_seamen = {
+	name = "Marine Division"
+	
+	for_countries = { GLK }
+	
+	can_use = { always = yes }
+	
+	division_types { "infantry" }
+	
+	fallback_name = "%s Seeleute"
+	
+}
+GLK_spahen_regiment = {
+	name = "Scout Division"
+	
+	for_countries = { GLK }
+	
+	can_use = { always = yes }
+	
+	division_types { "infantry" "light_armor" "motorized" "mechanized" }
+	
+	fallback_name = "%s Spähen-Infantrieregiment"
+	
+}
+GLK_motor_division = {
+	name = "Motorised Division"
+	
+	for_countries = { GLK }
+	
+	can_use = { always = yes }
+	
+	division_types { "light_armor" "motorized" "mechanized" }
+	
+	fallback_name = "%d Motorisierte-Abteilung"
+	
+}
+GLK_panzer_scouts = {
+	name = "Armoured Recon Division"
+	
+	for_countries = { GLK }
+	
+	can_use = { always = yes }
+	
+	division_types { "light_armor" "medium_armor" "heavy_armor" "modern_armor" "motorized" }
+	
+	fallback_name = "%sa Gepanzerte-Spähen-Brigade"
+	
+}
+GLK_panzerkorps = {
+	name = "Panzerkorps"
+	
+	for_countries = { GLK }
+	
+	can_use = { always = yes }
+	
+	division_types { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+	
+	fallback_name = "%sa Panzerkorps"
+	
+}
+GLK_orkastam = {
+	name = "Orkastam"
+	
+	for_countries = { GLK }
+	
+	can_use = { always = yes }
+	
+	division_types { "light_armor" "medium_armor" "heavy_armor" "modern_armor" "infantry" "motorized" "mechanized" }
+	
+	fallback_name = "%sa Orkastam"
+	
+	ordered = {
+		1 = { "'Wherts' %ra Orkastam" }
+		2 = { "'Vaile' %ra Orkastam" }
+		3 = { "'Hell' %ra Orkastam" }
+		4 = { "'Schlafli' %ra Orkastam" }
+		5 = { "'Hoyw' %ra Orkastam" }
+		6 = { "'Renée' %ra Orkastam" }
+		7 = { "'Sperker' %ra Orkastam" }
+		8 = { "'Afwerk' %ra Orkastam" }
+		9 = { "'Lieber' %ra Orkastam" }
+		10 = { "'Pourton' %ra Orkastam" }
+		11 = { "'Festro' %ra Orkastam" }
+		12 = { "'Lossion' %ra Orkastam" }
+		13 = { "'Ulmania' %ra Orkastam" }
+		14 = { "'Drakorn' %ra Orkastam" }
+		15 = { "'Lunzer' %ra Orkastam" }
+		16 = { "'Pesliov' %ra Orkastam" }
+		17 = { "'Aufgeber' %ra Orkastam" }
+		18 = { "'Raginez' %ra Orkastam" }
+		19 = { "'Restituta' %ra Orkastam" }
+		20 = { "'Polonia' %ra Orkastam" }
+		21 = { "'Drasilia' %ra Orkastam" }
+		22 = { "'Glaksa' %ra Orkastam" }
+		23 = { "'Fonuksia' %ra Orkastam" }
+		24 = { "'Hellenia' %ra Orkastam" }
+	}
+	
+}
+GLK_colonial = {
+	name = "Colonial Garrison"
+	
+	for_countries = { GLK }
+	
+	can_use = { always = yes }
+	
+	division_types { "infantry" }
+	
+	fallback_name = "%d Kolonialgarison"
+	
+}

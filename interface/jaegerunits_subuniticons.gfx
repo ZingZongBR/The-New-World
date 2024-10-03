@@ -1,0 +1,43 @@
+spriteTypes = {		
+	#hey, if you're here, know that I didn't make these.
+	#I actually *STOLE* this from another mod, that I have
+	#(sadly) lost, and thus cannot credit. :(
+	#################custom
+	
+	spriteType = { 
+		name = "GFX_unit_jaeger_icon_medium"									
+		textureFile = "gfx/interface/counters/divisions_large/unit_jaeger_icon.dds"
+		noOfFrames = 2 
+	}
+
+	spriteType = {
+		name = "GFX_unit_flamethrower_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/support_unit_flamethrower_icon.dds"
+		noOfFrames = 2
+	}
+	
+	spriteType = { 
+		name = "GFX_unit_shocktroop_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/unit_shocktroop_icon.dds"
+		noOfFrames = 2
+	}
+
+######White icons
+	spriteType = {
+		name = "GFX_unit_jaeger_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_jaeger_icon.dds"
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_unit_flamethrower_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/onmap_support_unit_flamethrower_icon.dds"
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+	name = "GFX_unit_shocktroop_icon_medium_white"
+	textureFile = "gfx/interface/counters/divisions_small/onmap_unit_shocktroop_icon.dds"
+	noOfFrames = 2
+	}
+}

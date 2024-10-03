@@ -1,0 +1,25 @@
+﻿l_english:
+ ABILITY_TOOLTIP_NAME:0 "$NAME|H$"
+ 
+ ############################
+ #####Imperio de Voldamour###
+ ############################
+ 
+ #ideias
+ resegare_merch:0 "Resegare Primeiro Ministro"
+ 
+ #leaders
+ SIZ_character_zing:0 "Imperador Zing I de Florenza"
+ SIZ_character_bloodmoon:0 "BloodMoon"
+ 
+ #focus tree
+ 
+SIZ_betray_the_royalty:0 "Betray the Royalty"
+SIZ_army_support:0 "Army Support"
+SIZ_media_support:0 "Media Support"
+SIZ_corrupty_political_support:0 "Seek support from corrupt politicians"
+SIZ_the_crown's_fall:0 "The Crown's Fall"
+
+
+ #events
+ 

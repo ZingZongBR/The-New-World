@@ -1,0 +1,28 @@
+state={
+	id=972
+	name="STATE_972"
+	
+	history={
+		owner = FEL
+		
+		victory_points = {
+				6412 1
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 1
+		}
+
+	}
+	
+	provinces={
+		3307 6412
+	}
+	
+	manpower=340420
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

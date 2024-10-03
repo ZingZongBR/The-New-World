@@ -1,0 +1,5 @@
+KOS	= "countries/Kosovo.txt"
+GLK = "countries/Glaksa.txt"
+SIZ = "countries/Sacro Imperio Zing.txt"
+FEL = "countries/Feluvia.txt"
+VLM = "countries/Vyrinthia al-Mujahidin.txt"

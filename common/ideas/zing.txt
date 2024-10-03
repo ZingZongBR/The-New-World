@@ -1,0 +1,53 @@
+ideas = {
+	country = {
+	
+		resegare_merch = {
+			picture = resegare_merch 
+			allowed = {
+				original_tag = SIZ
+			}
+			removal_cost = -1
+			traits = { popular_figurehead }
+		}
+
+		unstable_government = {
+			#picture
+			allowed = {
+				original_tag = SIZ
+			}
+			modifier = { 
+				stability_factor = -0.15
+				political_power_gain = -0.10
+				drift_defence_factor = -0.05
+			}
+
+		}
+
+		media_atack = {
+			#picture
+			allowed = {
+				original_tag = SIZ
+			}
+			modifier = {
+				stability_factor = -0.05
+				political_power_gain = -0.20
+				drift_defence_factor = -0.10
+			}
+
+		}
+
+		angry_old_guard = {
+			#picture
+			allowed = {
+				original_tag = SIZ
+			}
+			modifier = {
+				stability_factor = -0.05
+				command_power_gain_mult = -0.15
+				experience_gain_army_factor = -0.10
+			}
+
+		}
+
+	} 
+}
