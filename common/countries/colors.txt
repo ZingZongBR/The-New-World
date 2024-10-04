@@ -22,6 +22,11 @@ VLM = {
 	color_ui = rgb { 20 20 20 }
 	}
 
+HEL = {
+	color = rgb { 32 35 39 }
+	color_ui = rgb { 32 35 39 }
+	}
+
  ###Vanilla
 
 GER = {
