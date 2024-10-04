@@ -9,7 +9,7 @@ bookmarks = {
 		
 		"SIZ"={
 			history = "SIZ_GATHERING_STORM_DESC"
-			ideology = parliamentary_monarchy
+			ideology = monarchy
 			ideas = {
 				FRA_victors_of_wwi
 				FRA_disjointed_government
@@ -25,18 +25,14 @@ bookmarks = {
 
 		
 		"VLM"={
-			minor = yes
 			history = VLM_GATHERING_STORM_DESC
 			ideology = neutrality
+			minor = YES
 			ideas = {
-				ARG_infamous_decade_idea
-				ARG_roca_runciman_treaty_idea
-				ARG_towards_a_greater_argentina_idea
+				
 			}
 			focuses = {
-				ARG_islas_del_atlantico_sur
-				ARG_a_red_south_america
-				ARG_south_american_unity
+
 			}
 		}
 		effect = {
