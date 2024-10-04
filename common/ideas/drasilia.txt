@@ -1,0 +1,60 @@
+ideas = {
+	country = {
+	##FoTDv0.1 Drasilian Shared ideas
+	#as stated above, these were previously from FoTD (my previous hoi4 modding venture).
+	#I'll mothball these into the new mod. Cheers, code surfer!
+		draesan_race = {
+			
+			picture = GFX_idea_GLK_draesan_race
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_speed_factor = 0.1
+				land_night_attack = 0.3
+				monthly_population = -0.05
+				army_defence_factor = -0.1
+				consumer_goods_expected_value = 0.1
+			}
+		}
+		fohul_race = {
+			
+			picture = GFX_idea_GLK_fonuk_race
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_defence_factor = 0.05
+				land_night_attack = 0.1
+				army_core_attack_factor = 0.1
+				production_speed_buildings_factor = -0.1
+				resistance_target = 0.1
+			}
+		}
+		hensa_race = {
+			
+			picture = GFX_idea_GLK_fonuk_race
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_defence_factor = 0.1
+				production_speed_buildings_factor = 0.1
+				stability_factor = -0.05
+				industrial_capacity_factory = -0.05
+			}
+		}
+	}
+}

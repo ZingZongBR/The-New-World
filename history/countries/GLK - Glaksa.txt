@@ -67,6 +67,13 @@ set_popularities = {
 	monarchism = 36
 }
 
+add_ideas = {
+	draesan_race
+	limited_exports
+	volunteer_only
+	civilian_economy
+}
+
 set_convoys = 5
 
 create_equipment_variant = {

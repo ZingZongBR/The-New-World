@@ -77,9 +77,9 @@ set_popularities = {
 
 
 add_ideas = {
-	general_staff
+	draesan_race
 	limited_exports
-	volunteer_only
+	disarmed_nation
 	civilian_economy
 }
 
