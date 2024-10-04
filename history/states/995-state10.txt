@@ -6,8 +6,8 @@ state={
 		tungsten=2.000
 	}
 	history={
-		owner = NOR
-		add_core_of = NOR
+		owner = AZK
+		add_core_of = AZK
 		
 		buildings = {
 			infrastructure = 2

@@ -3,7 +3,8 @@ state={
 	name="STATE_990"
 	
 	history={
-		owner = SWE
+		owner = HEL
+		add_core_of = HEL
 		
 		victory_points = {
 			3039 2
@@ -14,8 +15,6 @@ state={
 			industrial_complex = 2
 			air_base = 3	
 		}
-		
-		add_core_of = SWE
 	}
 	
 	provinces={

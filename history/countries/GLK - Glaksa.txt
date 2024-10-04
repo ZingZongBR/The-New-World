@@ -26,11 +26,11 @@ set_technology = {
 	iw_small_airframe = 1
 	aa_lmg = 1
 	engines_1 = 1
-	engines_2 = 1
 	early_bombs = 1
 	
 	gwtank_chassis = 1
 	basic_light_tank_chassis = 1
+	armor_tech_1 = 1
 	
 	transport = 1
 	
@@ -77,15 +77,82 @@ add_ideas = {
 set_convoys = 5
 
 create_equipment_variant = {
-	name = "Johannes Fz.4 bombervariante" 
+	name = "Johannes Fz.4 'Liebling'" 
 	
 	type = small_plane_airframe_0
 	
 	modules = {
+		fixed_main_weapon_slot = light_mg_4x
+		engine_type_slot = engine_1_1x
+		special_type_slot_1 = empty
+	}
+	
+	obsolete = no
+}
+create_equipment_variant = {
+	name = "Johannes Fz.4 bombervariante" 
+	
+	type = small_plane_cas_airframe_0
+	
+	modules = {
 		fixed_main_weapon_slot = bomb_locks
+		fixed_auxiliary_weapon_slot_1 = light_mg_2x
 		engine_type_slot = engine_1_1x			
 		special_type_slot_1 = empty
 	}
 	
 	obsolete = no
+}
+create_equipment_variant = {
+	name = "Panzerwagen IV Ausf. C"
+	type = light_tank_chassis_1
+	parent_version = 3
+	modules = {
+		main_armament_slot = tank_close_support_gun
+		turret_type_slot = tank_light_two_man_tank_turret
+		suspension_type_slot = tank_torsion_suspension
+		armor_type_slot = tank_welded_armor
+		engine_type_slot = tank_gasoline_engine
+		special_type_slot_1 = tank_radio_1
+		special_type_slot_2 = expanded_fuel_tank
+		special_type_slot_2 = extra_ammo_storage
+	}
+	upgrades = {
+		tank_nsb_armor_upgrade = 2
+		tank_nsb_engine_upgrade = 4
+	}
+}
+create_equipment_variant = {
+	name = "Panzerwagen IV Ausf. B"
+	type = light_tank_chassis_1
+	parent_version = 2
+	modules = {
+		main_armament_slot = tank_small_cannon_2
+		turret_type_slot = tank_light_two_man_tank_turret
+		suspension_type_slot = tank_torsion_suspension
+		armor_type_slot = tank_welded_armor
+		engine_type_slot = tank_gasoline_engine
+		special_type_slot_1 = tank_radio_1
+		special_type_slot_2 = expanded_fuel_tank
+		special_type_slot_2 = extra_ammo_storage
+	}
+	upgrades = {
+		tank_nsb_armor_upgrade = 2
+		tank_nsb_engine_upgrade = 4
+	}
+}
+create_equipment_variant = {
+	name = "Norrköping Klasse"
+	type = ship_hull_light_2
+	name_group = GLK_GMW_kboat
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_light_battery_2
+		fixed_ship_anti_air_slot = ship_anti_air_2
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_engine_slot = light_ship_engine_2
+		fixed_ship_torpedo_slot = ship_torpedo_1
+		mid_1_custom_slot = ship_anti_air_2
+		rear_1_custom_slot = ship_light_battery_2
+	}
 }

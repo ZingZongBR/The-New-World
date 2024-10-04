@@ -27,6 +27,28 @@ HEL = {
 	color_ui = rgb { 32 35 39 }
 	}
 
+SAR = {
+	color = rgb { 145 138 119 } # 127 33 41
+	color_ui = rgb { 145 138 119 }
+	}
+
+AZK = {
+	color = rgb { 36 46 122 }
+	color_ui = rgb { 36 46 122 }
+	}
+
+FON = {
+	color = rgb { 199 100 76 }
+	color_ui = rgb { 199 100 76 }
+	}
+
+IDK = {
+	color = rgb { 163 116 101 }
+	color_ui = rgb { 163 116 101 }
+	}
+
+
+
  ###Vanilla
 
 GER = {
@@ -400,11 +422,6 @@ ICE = {
 UKR = {
 	color = rgb { 0  80  230 }
 	color_ui = rgb { 0  80  230 }	
-}
-
-AZR = {
-	color = rgb { 69  151  49 }
-	color_ui = rgb { 69  151  49 }
 }
 
 GEO = {

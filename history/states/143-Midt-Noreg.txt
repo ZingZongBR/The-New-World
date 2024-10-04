@@ -7,8 +7,8 @@ state={
 		victory_points = {
 			3022 5 
 		}
-		owner = SWE
-		add_core_of = SWE
+		owner = SAR
+		add_core_of = SAR
 		add_claim_by = NOR
 		add_core_of = SMI
 		

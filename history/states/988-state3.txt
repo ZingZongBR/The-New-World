@@ -3,7 +3,8 @@ state={
 	name="STATE_988"
 	
 	history={
-		owner = SWE
+		owner = HEL
+		add_core_of = HEL
 		
 		buildings = {
 			infrastructure = 3
@@ -15,8 +16,6 @@ state={
 				coastal_bunker = 1
 			}
 		}
-		
-		add_core_of = SWE
 	}
 	
 	provinces={

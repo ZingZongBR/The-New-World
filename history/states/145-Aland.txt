@@ -1,0 +1,29 @@
+state= {
+	id=145
+	name="STATE_145" #ÅLAND
+	
+	history = {
+		owner = FON
+		add_core_of = GOT
+		
+		victory_points = { #Mariehman
+			9228 5
+		}
+		
+		
+		buildings = {
+			infrastructure = 2
+			9228 = {
+				naval_base = 1
+			}
+		}
+	}
+	
+	provinces =	{
+		9228
+	}
+	
+	local_supplies=0.0
+	manpower = 128139
+	state_category = town
+}
