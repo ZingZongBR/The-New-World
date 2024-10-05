@@ -1,0 +1,20 @@
+focus_tree = {
+    id = VLM_the_new_calip
+    country = {
+        base = 0
+        modifier = {
+            add = 10
+            tag = VLM
+			
+			}
+		}
+
+		focus = {
+			id = VLM_the_great_vyrinthia
+			#icon = 
+			x = 7
+			y = 0
+			cost = 5
+	}
+
+	}
