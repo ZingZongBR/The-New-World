@@ -2,6 +2,14 @@
 
 oob = "IDK_1936"
 
+recruit_character = IDK_walter_blanch
+recruit_character = IDK_marko_tarko
+
+recruit_character = IDK_galanov_field_marshal
+recruit_character = IDK_pigfat_general
+recruit_character = IDK_laskin_general
+recruit_character = IDK_sadowski_general
+
 set_research_slots = 3
 
 set_technology = {

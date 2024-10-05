@@ -1,4 +1,7 @@
 spriteTypes = {
+	
+	### glk ###
+
 	#Seth uwu
 	spriteType = {
 		name = "GFX_Seth_Wherts_Large"
@@ -56,4 +59,15 @@ spriteTypes = {
 		texturefile = "gfx/leaders/glk/prov_council.dds"
 	}
 	
+	
+	### idk ###
+	
+	spriteType = {
+		name = "GFX_Walter_blanch"
+		texturefile = "gfx/characters/idk/walter_blanch.dds"
+	}
+	spriteType = {
+		name = "GFX_Marko_Tarko"
+		texturefile = "gfx/leaders/idk/tsar_marko.dds"
+	}
 }

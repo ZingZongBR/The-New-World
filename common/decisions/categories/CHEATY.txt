@@ -1,0 +1,5 @@
+tnw_cheat_slash_devving_decisions = {
+	icon = generic_operation
+	visible = {
+	}
+}

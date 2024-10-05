@@ -1,0 +1,13 @@
+glk_knowledge_stealing = {
+	icon = generic_operation
+	visible = {
+		tag = GLK
+	}
+}
+glk_reclaiming_titles = {
+	icon = GFX_decision_cat_maid_icon
+	visible = {
+		tag = GLK
+		has_completed_focus = restoration_of_titles
+	}
+}

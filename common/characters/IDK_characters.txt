@@ -1,0 +1,88 @@
+characters = {
+
+	#walter
+	IDK_walter_blanch = {
+		name = "Walter Blanch"
+		portraits = {
+			civilian = {
+				large = GFX_Walter_blanch
+			}
+		}
+		
+		country_leader = {
+			ideology = fascism_ideology
+			traits = {
+				dictator
+			}
+		}
+	}
+	IDK_marko_tarko = {
+		name = "Marko I of Tarkovotto"
+		portraits = {
+			civilian = {
+				large = GFX_Marko_Tarko
+			}
+		}
+		
+		country_leader = {
+			ideology = absolute_monarchy
+			traits = {
+				dealbroker
+				anti_communist
+				reluctant_veteran
+				empire_builder
+			}
+		}
+	}
+	
+	
+	IDK_galanov_field_marshal = {
+		name = "Mostrich Galanov von Janne"
+		
+		field_marshal = {
+			traits = { harsh_leader expert_delegator }
+            skill = 8
+            attack_skill = 7
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 4
+		}
+	}
+	
+	IDK_pigfat_general = {
+		name = "Melvin Pigfat"
+		
+		corps_commander = {
+			traits = { substance_abuser }
+            skill = 4
+            attack_skill = 4
+            defense_skill = 3
+            planning_skill = 3
+            logistics_skill = 2
+		}
+	}
+	IDK_laskin_general = {
+		name = "Vyacheslav Laskin"
+		
+		corps_commander = {
+			traits = { urban_assault_specialist }
+            skill = 4
+            attack_skill = 4
+            defense_skill = 4
+            planning_skill = 2
+            logistics_skill = 1
+		}
+	}
+	IDK_sadowski_general = {
+		name = "Nestor Sadowski"
+		
+		corps_commander = {
+			traits = { commando trait_engineer adaptable }
+            skill = 6
+            attack_skill = 5
+            defense_skill = 3
+            planning_skill = 7
+            logistics_skill = 3
+		}
+	}
+}

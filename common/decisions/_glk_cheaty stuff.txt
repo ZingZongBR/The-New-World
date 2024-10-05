@@ -1,0 +1,394 @@
+glk_knowledge_stealing = {
+	more_offmap_civs2 = {
+
+		icon = generic_research
+
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			add_offsite_building = { type = industrial_complex level = 1 }
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+	more_offmap_mils2 = {
+
+		icon = generic_research
+
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			add_offsite_building = { type = arms_factory level = 1 }
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+	more_offmap_fuel2 = {
+
+		icon = generic_research
+
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			add_offsite_building = { type = synthetic_refinery level = 1 }
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+	add_resource_oil2 = {
+
+		icon = generic_research
+
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			random_owned_state = {
+				add_resource = {
+					type = oil
+					amount = 1
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+	add_resource_steel2 = {
+
+		icon = generic_research
+
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			random_owned_state = {
+				add_resource = {
+					type = steel
+					amount = 1
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+	add_resource_aluminium2 = {
+
+		icon = generic_research
+
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			random_owned_state = {
+				add_resource = {
+					type = aluminium
+					amount = 1
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+	add_resource_rubber2 = {
+
+		icon = generic_research
+
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			random_owned_state = {
+				add_resource = {
+					type = rubber
+					amount = 1
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+	add_resource_tungsten2 = {
+
+		icon = generic_research
+
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			random_owned_state = {
+				add_resource = {
+					type = tungsten
+					amount = 1
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+	add_resource_chromium2 = {
+
+		icon = generic_research
+
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			random_owned_state = {
+				add_resource = {
+					type = chromium
+					amount = 1
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+	glk_good_rule_stuffin = {
+
+		icon = generic_research
+
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			set_rule = { can_create_collaboration_government = yes }
+			set_rule = { can_create_factions = yes }
+			set_rule = { can_boost_other_ideologies = yes }
+			set_rule = { can_force_government = yes }
+			set_rule = { can_use_kamikaze_pilots = yes }
+			set_rule = { can_send_volunteers = yes }
+			set_rule = { can_puppet = yes }
+			set_rule = { can_lower_tension = yes }
+			set_rule = { can_join_opposite_factions = yes }
+			set_rule = { can_join_factions = yes }
+			set_rule = { can_guarantee_other_ideologies = yes }
+			set_rule = { can_generate_female_aces = yes }
+			set_rule = { can_force_government = yes }
+			set_rule = { can_declare_war_on_same_ideology = yes }
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+	glk_op_traits = {
+
+		icon = generic_research
+
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			add_country_leader_trait  = collaborator_king
+			add_country_leader_trait  = dictator
+			add_country_leader_trait  = snuggler
+			add_country_leader_trait  = face_licker
+			add_country_leader_trait  = cornered_fox
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+	glk_more_research_slots	= {
+
+		icon = generic_research
+
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			add_research_slot = 1
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+	glk_more_pisspower = {
+
+		icon = generic_research
+
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+	glk_add_seth = {
+
+		icon = generic_research
+
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			recruit_character = seth_wherts_schlafli
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+	glk_kill_monarch = {
+
+		icon = generic_research
+
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+				kill_ideology_leader = monarchism
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+}

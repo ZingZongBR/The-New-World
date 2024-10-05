@@ -1,0 +1,7 @@
+IDK_communist_cimprovements = {
+	icon = GFX_decision_category_generic_communism
+	visible = {
+		tag = IDK
+		has_completed_focus = red_peoples_of_donyeotto
+	}
+}

@@ -1,0 +1,14 @@
+SWE_monarchist_bop_decisions = {
+	icon = generic_operation
+	visible = {
+		has_power_balance = {
+			id = SWE_monarchists_government
+		}
+	}
+}
+SWE_glaksian_diplomacy_decisions = {
+	icon = generic_operation
+	visible = {
+		has_completed_focus = SWE_glaksian_diplomacy
+	}
+}

@@ -2,7 +2,7 @@ characters = {
 
 	#stupid council fuck you
 	vogel_partit = {
-		name = "Vaksovia Regentschaft sexo"
+		name = "Vaksovia Regentschaft"
 		portraits = {
 			civilian = {
 				large = GFX_Vogel_Partit
@@ -10,7 +10,7 @@ characters = {
 		}
 		
 		country_leader = {
-			ideology = conservatism
+			ideology = oligarchic
 			traits = {
 				the_grand_council
 			}
@@ -31,6 +31,8 @@ characters = {
 			traits = {
 				headstrong
 				political_dancer
+				popular_figurehead3
+				economic_reformer
 			}
 		}
 	}

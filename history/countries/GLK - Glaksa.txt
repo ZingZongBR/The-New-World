@@ -53,18 +53,18 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = monarchism
+	ruling_party = neutrality
 	last_election = "1935.4.1"
 	election_frequency = 24
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 28
-	neutrality = 17
+	democratic = 25
+	neutrality = 30
 	communism = 9
-	fascism = 10
-	monarchism = 36
+	fascism = 15
+	monarchism = 21
 }
 
 add_ideas = {
