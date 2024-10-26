@@ -11,17 +11,21 @@ focus_tree = {
     
     ##Politics
     focus = {
+        allow_branch = {
+            is_in_war = no 
+        }
         id = VLM_the_great_vyrinthia
         #icon = 
         x = 5
         y = 0
         cost = 5
+       
     }
     ##Civil War
     focus = {
         id = VLM_Seek_for_arabic_aid
         #icon = 
-        x = 8
+        x = 12
         y = 0
         cost = 5
     }
@@ -52,4 +56,36 @@ focus_tree = {
             country_event = Vyrinthia.2
             }
         }
+
+        focus = {
+            id = VLM_recruit_new_soldiers
+            #icon = 
+            x = 0 
+            y = 2
+            cost = 5
+            relative_position_id = VLM_Seek_for_arabic_aid
+            prerequisite = { focus = VLM_Seek_for_arabic_aid }   
+            prerequisite = { focus = VLM_Seek_for_mans }
+            prerequisite = { focus = VLM_Seek_for_weapon }
+
+            completion_reward = {
+        division_template = {
+
+        name = "trained militia"
+        regiments = {
+
+        infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+
+                }
+            }
+
+            create_units
+
+         }
     }
+}
