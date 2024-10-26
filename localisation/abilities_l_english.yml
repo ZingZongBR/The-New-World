@@ -14,12 +14,16 @@
  
  #focus tree
  
-SIZ_betray_the_royalty:0 "Betray the Royalty"
-SIZ_army_support:0 "Army Support"
-SIZ_media_support:0 "Media Support"
-SIZ_corrupty_political_support:0 "Seek support from corrupt politicians"
-SIZ_the_crown's_fall:0 "The Crown's Fall"
+ SIZ_betray_the_royalty:0 "Betray the Royalty"
+ SIZ_army_support:0 "Army Support"
+ SIZ_media_support:0 "Media Support"
+ SIZ_corrupty_political_support:0 "Seek support from corrupt politicians"
+ SIZ_the_crown's_fall:0 "The Crown's Fall"
 
-
+ SIZ_betray_the_royalty_desc:0 "With this new decision from the emperor, the government and the state are unstable, along with the army. We must remove the Emperor from power and implement our own policies for the sake of our interests, even with the population's discontent."
+ SIZ_corrupty_political_support_desc:0 "With the political discontent within the parliament, we are organizing alliances among the political blocs to prevent instability after the coup in the nation’s internal politics."
+ SIZ_media_support_desc:0 "The media has always attacked the crown, and they won’t leave us hanging now. We will form a great alliance where both sides will emerge victorious, and at the same time, we will make part of the population believe that the government is weak and internally destroyed by the emperor's decisions."
+ SIZ_army_support_desc:0 "The generals are greatly discontent due to the fact that many have been dismissed and devalued by the Emperor, who simply replaced them with novices who have never even seen a battlefield. We will ensure that the old guard stands by our side and we will put them in their rightful places."
+ SIZ_the_crown's_fall_desc:0 "Finally, we will bring the crown down. With our preparations, we will make the Emperor abdicate and be exiled to another country. Thus, we will proclaim an Oligarchic Republic, where only those who supported us will gain privileges."
  #events
  
