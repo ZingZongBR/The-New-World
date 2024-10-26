@@ -27,3 +27,9 @@
  SIZ_the_crown's_fall_desc:0 "Finally, we will bring the crown down. With our preparations, we will make the Emperor abdicate and be exiled to another country. Thus, we will proclaim an Oligarchic Republic, where only those who supported us will gain privileges."
  #events
  
+ ############################
+ #####Vyrinthia##############
+ ############################
+
+ #Leaders
+ VLM_character_Breakest:0 "Breakest"

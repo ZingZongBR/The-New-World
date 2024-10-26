@@ -1,0 +1,41 @@
+###########################
+# Vyrinthia Events
+###########################
+
+add_namespace = Vyrinthia 
+
+
+country_event = {
+	id = Vyrinthia.1
+	title = Vyrinthia.1.t
+	desc = Vyrinthia.1.d
+	# picture = GFX_report_event_chinese_army_training
+	is_triggered_only = yes
+	
+    trigger = {
+       
+    }
+	option = {
+		name = Vyrinthia.1.a
+        add_equipment_to_stockpile = {
+            type = infantry_equipment
+            amount = 5000
+        }
+	        }
+        
+    }
+	country_event = {
+		id = Vyrinthia.2
+		title = Vyrinthia.2.t
+		desc = Vyrinthia.2.d
+		# picture = GFX_report_event_chinese_army_training
+		is_triggered_only = yes
+		
+		trigger = {
+		   
+		}
+		option = {
+			name = Vyrinthia.2.a
+			add_manpower = 20000	
+			}
+		}

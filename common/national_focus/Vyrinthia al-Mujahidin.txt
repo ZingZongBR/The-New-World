@@ -5,16 +5,51 @@ focus_tree = {
         modifier = {
             add = 10
             tag = VLM
-			
-			}
-		}
-
-		focus = {
-			id = VLM_the_great_vyrinthia
-			#icon = 
-			x = 7
-			y = 0
-			cost = 5
-	}
-
-	}
+            
+        }
+    }
+    
+    ##Politics
+    focus = {
+        id = VLM_the_great_vyrinthia
+        #icon = 
+        x = 5
+        y = 0
+        cost = 5
+    }
+    ##Civil War
+    focus = {
+        id = VLM_Seek_for_arabic_aid
+        #icon = 
+        x = 8
+        y = 0
+        cost = 5
+    }
+    
+    focus = {
+        id = VLM_Seek_for_weapon
+        #icon = 
+        x = -2
+        y = 1
+        cost = 5
+        relative_position_id = VLM_Seek_for_arabic_aid
+        prerequisite = { focus = VLM_Seek_for_arabic_aid }
+        
+        completion_reward = {
+            country_event = Vyrinthia.1
+        }
+    }
+    focus = {
+        id = VLM_Seek_for_mans
+        #icon = 
+        x = 2
+        y = 1
+        cost = 5
+        relative_position_id = VLM_Seek_for_arabic_aid
+        prerequisite = { focus = VLM_Seek_for_arabic_aid }
+        
+        completion_reward = {
+            country_event = Vyrinthia.2
+            }
+        }
+    }

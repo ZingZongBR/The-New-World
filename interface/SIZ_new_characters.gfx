@@ -11,3 +11,8 @@ spriteTypes = {
 		name = "GFX_portrait_siz_bloodmoon"
 		texturefile = "gfx/leaders/SIZ/BloodMoon.dds"
 	}
+
+	spriteType = {
+		name = "GFX_portrait_vlm_breakest"
+		texturefile = "gfx/leaders/VLM/breakest.dds"
+	}

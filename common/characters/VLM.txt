@@ -1,0 +1,15 @@
+characters={
+	VLM_Breakest={
+		name=VLM_character_Breakest
+		portraits={
+			civilian={
+				large= GFX_portrait_vlm_breakest
+			}
+		}
+		country_leader={
+			ideology=falangism
+			traits= {  }
+			expire="1950.1.1.1"
+		}
+	}
+}

@@ -7,6 +7,8 @@ set_technology = {
 	
 }
 
+recruit_character = VLM_Breakest
+
 declare_war_on = {
     target = ITA
     type = annex_everything
@@ -20,7 +22,7 @@ diplomatic_relation = {
 set_convoys = 100
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = fascism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -28,13 +30,13 @@ set_politics = {
 
 set_popularities = {
 	democratic = 0
-	fascism = 20
+	fascism = 80
 	communism = 0
-	neutrality = 80
+	neutrality = 20
 	monarchism = 0
 }
 
 add_ideas ={ 
-
+	bba_AFA_skilled_desert_warriors
 }
 

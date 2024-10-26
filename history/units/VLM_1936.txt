@@ -10,7 +10,7 @@ division_template = {
 
     }
     support = {
-        engineer = { x = 0 y = 0 }
+     
     }
 }
 
@@ -97,6 +97,116 @@ units = {
     division= {
         name = "9st Mujahideen Brigade Sons of the Sand"
         location = 12812 # Hararghe
+        division_template = "Mujahidin"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.7
+    }
+}
+
+units = {
+    division= {
+        name = "10st Mujahideen Brigade Sons of the Sand"
+        location = 12714 # Hararghe
+        division_template = "Mujahidin"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.7
+    }
+}
+
+units = {
+    division= {
+        name = "11st Mujahideen Brigade Sons of the Sand"
+        location = 10775 # Bale
+        division_template = "Mujahidin"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.7
+    }
+}
+
+units = {
+    division= {
+        name = "12st Mujahideen Brigade Sons of the Sand"
+        location = 8036 # Shewa
+        division_template = "Mujahidin"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.7
+    }
+}
+
+units = {
+    division= {
+        name = "13st Mujahideen Brigade Sons of the Sand"
+        location = 8036 # Shewa
+        division_template = "Mujahidin"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.7
+    }
+}
+
+units = {
+    division= {
+        name = "14st Mujahideen Brigade Sons of the Sand"
+        location = 10775 # Bale
+        division_template = "Mujahidin"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.7
+    }
+}
+
+units = {
+    division= {
+        name = "15st Mujahideen Brigade Sons of the Sand"
+        location = 10775 # Bale
+        division_template = "Mujahidin"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.7
+    }
+}
+
+units = {
+    division= {
+        name = "16st Mujahideen Brigade Sons of the Sand"
+        location = 10775 # Bale
+        division_template = "Mujahidin"
+        start_experience_factor = 0.2
+        start_equipment_factor = 1.0
+    }
+}
+
+units = {
+    division= {
+        name = "17st Mujahideen Brigade Sons of the Sand"
+        location = 10775 # Bale
+        division_template = "Mujahidin"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.7
+    }
+}
+
+units = {
+    division= {
+        name = "18st Mujahideen Brigade Sons of the Sand"
+        location = 10775 # Bale
+        division_template = "Mujahidin"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.7
+    }
+}
+
+units = {
+    division= {
+        name = "19st Mujahideen Brigade Sons of the Sand"
+        location = 10775 # Bale
+        division_template = "Mujahidin"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.7
+    }
+}
+
+units = {
+    division= {
+        name = "20st Mujahideen Brigade Sons of the Sand"
+        location = 10775 # Bale
         division_template = "Mujahidin"
         start_experience_factor = 0.2
         start_equipment_factor = 0.7
