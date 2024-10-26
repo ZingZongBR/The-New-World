@@ -11,8 +11,8 @@ focus_tree = {
     
     ##Politics
     focus = {
-        allow_branch = {
-            is_in_war = no 
+        available = {
+            has_war = no 
         }
         id = VLM_the_great_vyrinthia
         #icon = 
@@ -83,9 +83,26 @@ focus_tree = {
 
                 }
             }
-
-            create_units
-
-         }
+                random_controlled_state = {
+                    create_unit = {
+                        division = "name = \"Trained Militia\" division_template = \"trained militia\" start_experience_factor = 0.2"
+                        owner = ROOT
+                        count = 5
+                    }
+                }
+                }
+                
+    focus = {
+        id = VLM_force_population_to_fight
+        #icon = 
+        x = 0 
+        y = 2
+        cost = 5
+        relative_position_id = VLM_Seek_for_arabic_aid
+        prerequisite = { focus = VLM_Seek_for_arabic_aid }   
+        prerequisite = { focus = VLM_Seek_for_mans }
+        prerequisite = { focus = VLM_Seek_for_weapon }
     }
 }
+}  
+               
