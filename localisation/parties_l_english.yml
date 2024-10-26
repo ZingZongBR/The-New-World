@@ -60,6 +60,15 @@
  parliamentary_monarchy:0 "Parliamentary Monarchy"
  parliamentary_monarchy_desc:0 "A political system where the monarch serves as the ceremonial head of state, while executive and legislative power is exercised by an elected parliament. The monarch's authority is symbolic and limited by the constitution, with the government being led by a prime minister and cabinet."
 
+
+ # Voldamour
+
+ SIZ_monarchism_party:0 "House of Florenza"
+ SIZ_neutrality_party:0 "Party of Governmental Organization."
+ SIZ_fascism_party:0 "Patriotische Befreiungsfront"
+ SIZ_communism_party:0 "Dvizhenie studencheskoy kommuny"
+ SIZ_democratic_party:0 "Partitum Liberalem Conservativum."
+
  # Drasilia
  
  GLK_monarchism_party:0 "Edel Regentschaft"
