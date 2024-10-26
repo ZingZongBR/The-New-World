@@ -11,7 +11,7 @@ ideas = {
 		}
 
 		SIZ_unstable_government = {
-			#picture
+			picture = chi_war_of_resistance3
 			allowed = {
 				original_tag = SIZ
 			}
@@ -24,7 +24,7 @@ ideas = {
 		}
 
 		SIZ_media_atack = {
-			#picture
+			picture = generic_radio_concern 
 			allowed = {
 				original_tag = SIZ
 			}
@@ -37,7 +37,7 @@ ideas = {
 		}
 
 		SIZ_angry_old_guard = {
-			#picture
+			picture = tur_kemalist_army_officers_minimal_power_disloyal
 			allowed = {
 				original_tag = SIZ
 			}
