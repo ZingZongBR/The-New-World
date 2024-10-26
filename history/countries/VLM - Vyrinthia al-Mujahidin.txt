@@ -7,6 +7,16 @@ set_technology = {
 	
 }
 
+declare_war_on = {
+    target = ITA
+    type = annex_everything
+}
+diplomatic_relation = {
+    country = ETH
+    relation = non_aggression_pact
+    active = yes
+}
+
 set_convoys = 100
 
 set_politics = {
