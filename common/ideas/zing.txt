@@ -10,7 +10,7 @@ ideas = {
 			traits = { popular_figurehead }
 		}
 
-		unstable_government = {
+		SIZ_unstable_government = {
 			#picture
 			allowed = {
 				original_tag = SIZ
@@ -23,7 +23,7 @@ ideas = {
 
 		}
 
-		media_atack = {
+		SIZ_media_atack = {
 			#picture
 			allowed = {
 				original_tag = SIZ
@@ -36,7 +36,7 @@ ideas = {
 
 		}
 
-		angry_old_guard = {
+		SIZ_angry_old_guard = {
 			#picture
 			allowed = {
 				original_tag = SIZ

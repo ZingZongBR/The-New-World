@@ -45,9 +45,9 @@ add_ideas ={
 
 	limited_conscription
 	resegare_merch
-	unstable_government
-	media_atack
-	angry_old_guard
+	SIZ_unstable_government
+	SIZ_media_atack
+	SIZ_angry_old_guard
 }
 
 create_equipment_variant = { 

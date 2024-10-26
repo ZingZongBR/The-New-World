@@ -11,14 +11,12 @@ bookmarks = {
 			history = "SIZ_GATHERING_STORM_DESC"
 			ideology = monarchy
 			ideas = {
-				FRA_victors_of_wwi
-				FRA_disjointed_government
-				FRA_protected_by_the_maginot_line
+				SIZ_unstable_government
+				SIZ_media_atack
+				SIZ_angry_old_guard
 			}
 			focuses = {
-				FRA_form_the_popular_front
-				FRA_revive_the_national_bloc
-				FRA_france_leads
+				SIZ_the_crown's_fall
 			}
 		}
 

@@ -13,15 +13,15 @@ focus_tree = {
 		
 		focus = {
 		id = SIZ_betray_the_royalty
-		#icon = GFX_goal_focus_generic_monarchy
+		icon = GFX_focus_generic_strike_at_democracy2
 		mutually_exclusive = { focus = SIZ_long_live_the_king }
 		x = 7
 		y = 1
-		cost = 5
+		cost = 10
 }
 		focus = {
 		id = SIZ_army_support
-		#icon = GFX_goal_focus_generic_monarchy
+		icon = GFX_focus_generic_little_entente
 		x = 2
 		y = 1
 		relative_position_id = SIZ_betray_the_royalty
@@ -31,7 +31,7 @@ focus_tree = {
 
 focus = {
 		id = SIZ_media_support
-		#icon = GFX_goal_focus_generic_monarchy
+		icon = GFX_goal_generic_propaganda
 		x = 0
 		y = 1
 		relative_position_id = SIZ_betray_the_royalty
@@ -41,7 +41,7 @@ focus = {
 
 focus = {
 		id = SIZ_corrupty_political_support
-		#icon = GFX_goal_focus_generic_monarchy
+		icon = GFX_goal_generic_major_alliance
 		x = -2
 		y = 1
 		relative_position_id = SIZ_betray_the_royalty
@@ -51,7 +51,7 @@ focus = {
 
 focus = {
 		id = SIZ_the_crown's_fall
-		#icon = GFX_goal_focus_generic_monarchy
+		icon = GFX_focus_rom_abdicate
 		x = 0
 		y = 2
 		relative_position_id = SIZ_betray_the_royalty
@@ -59,104 +59,10 @@ focus = {
 		prerequisite = { focus = SIZ_corrupty_political_support }
 		prerequisite = { focus = SIZ_media_support }
 		prerequisite = { focus = SIZ_army_support }
-		cost = 5
+		cost = 15
 }
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		focus = {
-		id = SIZ_long_live_the_king
-		#icon =
-		mutually_exclusive = { focus = SIZ_betray_the_royalty }
-		x= 2
-		y = 1
 
-	available = {
-			is_subject = no
-		}
-
-	allow_branch = {
-			if = {
-				limit = {
-					has_game_rule = {
-						rule = obsolete_focus_branches_visibility
-						option = HIDE
-					}
-				}
-				NOT = {
-					has_completed_focus = SIZ_betray_the_royalty
-				}
-			}
-		}
-
-
-	completion_reward = { 
-
-		hidden_effect = {
-				if = {
-					limit = {
-						has_game_rule = {
-							rule = obsolete_focus_branches_visibility
-							option = HIDE
-						}
-					}
-					mark_focus_tree_layout_dirty = yes
-				}
-			}
-		}
-	}
 
 }
 
