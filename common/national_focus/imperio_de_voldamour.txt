@@ -50,7 +50,7 @@ focus = {
 }
 
 focus = {
-		id = SIZ_the_crown's_fall
+		id = SIZ_the_crowns_fall
 		icon = GFX_focus_rom_abdicate
 		x = 0
 		y = 2

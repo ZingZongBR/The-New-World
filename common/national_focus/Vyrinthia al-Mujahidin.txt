@@ -91,18 +91,18 @@ focus_tree = {
                     }
                 }
                 }
-                
+            }    
     focus = {
         id = VLM_force_population_to_fight
         #icon = 
         x = 0 
-        y = 2
+        y = 1
         cost = 5
-        relative_position_id = VLM_Seek_for_arabic_aid
+        relative_position_id = VLM_recruit_new_soldiers
         prerequisite = { focus = VLM_Seek_for_arabic_aid }   
         prerequisite = { focus = VLM_Seek_for_mans }
         prerequisite = { focus = VLM_Seek_for_weapon }
     }
 }
-}  
+  
                
