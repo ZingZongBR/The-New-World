@@ -102,6 +102,11 @@ focus_tree = {
         prerequisite = { focus = VLM_Seek_for_arabic_aid }   
         prerequisite = { focus = VLM_Seek_for_mans }
         prerequisite = { focus = VLM_Seek_for_weapon }
+
+        completion_reward = {
+            add_manpower = 100000
+        }
+
     }
 }
   
