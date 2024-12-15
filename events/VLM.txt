@@ -39,3 +39,23 @@ country_event = {
 			add_manpower = 20000	
 			}
 		}
+
+		country_event = {
+			id = Vyrinthia.3
+			title = Vyrinthia.3.t
+			desc = Vyrinthia.3.d
+			# picture = GFX_report_event_chinese_army_training
+			is_triggered_only = yes
+			
+			trigger = {
+			   
+			}
+			option = {
+				name = Vyrinthia.3.a
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 2500
+				}
+				add_manpower = 10000
+				}
+			}

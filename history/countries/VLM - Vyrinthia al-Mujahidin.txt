@@ -9,10 +9,6 @@ set_technology = {
 
 recruit_character = VLM_Breakest
 
-declare_war_on = {
-    target = ITA
-    type = annex_everything
-}
 diplomatic_relation = {
     country = ETH
     relation = non_aggression_pact

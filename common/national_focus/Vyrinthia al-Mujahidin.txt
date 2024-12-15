@@ -28,6 +28,10 @@ focus_tree = {
         x = 12
         y = 0
         cost = 5
+        completion_reward = {
+            country_event = Vyrinthia.3
+        }
+
     }
     
     focus = {
@@ -69,6 +73,12 @@ focus_tree = {
             prerequisite = { focus = VLM_Seek_for_weapon }
 
             completion_reward = {
+
+                 add_equipment_to_stockpile = {
+                    type = infantry_equipment
+                    amount = 2500
+                }
+
         division_template = {
 
         name = "trained militia"
@@ -80,7 +90,9 @@ focus_tree = {
 		infantry = { x = 0 y = 3 }
         infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
-
+        support = {
+            support_artillery = { x = 0 y = 0 }  # Suporte de artilharia.
+        }
                 }
             }
                 random_controlled_state = {
@@ -102,6 +114,9 @@ focus_tree = {
         prerequisite = { focus = VLM_Seek_for_arabic_aid }   
         prerequisite = { focus = VLM_Seek_for_mans }
         prerequisite = { focus = VLM_Seek_for_weapon }
+        prerequisite = { focus = VLM_recruit_new_soldiers }
+        
+
 
         completion_reward = {
             add_manpower = 100000
