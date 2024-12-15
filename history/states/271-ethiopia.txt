@@ -21,7 +21,7 @@ state=
 		#add_dynamic_modifier = {
 		#	modifier = ETH_state_decentralization_dynamic_modifier
 		#}
-		owner = VLM
+		owner = ETH
 		buildings = {
 			infrastructure = 2
 			arms_factory = 2
@@ -37,7 +37,6 @@ state=
 		
 		
 		add_core_of = ETH
-		add_core_of = VLM
 		add_core_of = ORO
 
 		1936.6.1 = {
